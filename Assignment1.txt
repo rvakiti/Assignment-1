@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #7FFF00;
+}
+
+h1 {
+    color: Orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 40px;
+}
+</style>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+
+<body>
+
+<h1>JavaScript in Head</h1>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html> 
